@@ -2,10 +2,10 @@ from morsHarfleri import harfler
 
 while True:
     def morsAlfabe(cevir):
-        sifre = ""
+        kelime = ""
         for x in cevir:
-            sifre += harfler[x.lower()] + " "
-        return sifre
+            kelime += harfler[x.lower()] + " "
+        return kelime
     cevir = input("Kelime: ")
     print(morsAlfabe(cevir))
 
